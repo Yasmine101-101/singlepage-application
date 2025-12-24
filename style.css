@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f3;
+}
+
+.container {
+  width: 600px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 70%;
+}
+
+button {
+  padding: 8px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.word {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.part {
+  font-style: italic;
+  color: gray;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
