@@ -27,6 +27,7 @@ form.addEventListener("submit", function (event) {
         html += "<div>" + wordData.phonetics[0].text + "</div>";
       }
 
+      
       html += "<div class='part'>" + meaning.partOfSpeech + "</div>";
 
       html += "<p><strong>Definition:</strong> " + definitionData.definition + "</p>";
